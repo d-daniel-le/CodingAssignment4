@@ -1,0 +1,30 @@
+body 
+{
+  background-image: url('../images/plaid.png');
+    color: white;
+    font-family: 'Quattrocento', serif;
+
+}
+
+#recipelinks
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 370px;
+    height: 370px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 110px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 5px;
+}
+
+#rightbottomcorner
+{
+    line-height: 0px;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
