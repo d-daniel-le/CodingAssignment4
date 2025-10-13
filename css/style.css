@@ -14,7 +14,8 @@ body
     width: 475px;
     height: 390px;
     padding-left: 35px;
-    padding-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
     border-radius: 110px;
     border-style: solid;
     border-color: gray;
@@ -59,9 +60,11 @@ body
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size: 20px;
-    width: 445px;
+    width: 520px;
     height: 440px;
-    padding-left: 85px;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 60px;
     border-radius: 110px;
     border-style: solid;
     border-color: gray;
@@ -81,4 +84,24 @@ hr
     background-color: white;
     height: 1px;
     border: none;
+}
+
+#a
+{
+    padding-left: 10px;
+}
+
+#d
+{
+    padding-left: 21px;
+}
+
+#t
+{
+    padding-left: 60px;
+}
+
+#tonyimg
+{
+    margin-left: 70px;
 }
