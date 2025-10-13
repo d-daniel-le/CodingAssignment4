@@ -101,12 +101,13 @@ hr
     padding-left: 60px;
 }
 
-#tonyimg
+.tonyimg
 {
     margin-left: 70px;
 }
 
 h3
 {
-    font-weight: bolder;
+    font-weight: 900;
+    
 }
