@@ -1,6 +1,6 @@
 html    {
   font-family: "Marcellus", sans-serif;
-  background-color: #5A04D1;
+  background-image: url("../images/background.jpg");
   color: yellow;
   margin: 0;
   padding: 0;
@@ -25,7 +25,7 @@ h1, h2  {
   grid-column: 1 / -1; 
 }
 h3  {
-  color: #ffd700;
+  color: #ffa600;
   margin-top: 15px;
 }
 
@@ -36,6 +36,7 @@ h3.rate {
 p   {
   font-size: 1rem;
   max-width: 600px;
+  color: red;
 }
 
 figure  {
@@ -44,12 +45,12 @@ figure  {
   align-items: center;
   border: 2px solid #fff;
   padding: 10px;
-  background-color: navy;
+  border: none;
 }
 
 figcaption  {
   font-size: 0.8rem;
-  color: lightgray;
+  color: gray;
   margin-top: 5px;
   text-align: center;
 }
