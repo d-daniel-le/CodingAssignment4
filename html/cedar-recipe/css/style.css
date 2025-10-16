@@ -2,7 +2,8 @@ html {
     font-size: 16px;
 }
 body {
-    background: #3E4759; /*E4EAF2*/
+    /*background: /*#3E4759; /*E4EAF2*/
+    background-image: url("../images/bg.png");
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
