@@ -1,6 +1,8 @@
 body {
+    background-image: url(../images/pexels-resourceboy-18541749.jpg);
     background-color: #01311F;
     color: #FFFAF0;
+    font-family: "Permanent Marker";
 }
 
 h1, h2, h3{
@@ -10,6 +12,7 @@ h1, h2, h3{
     text-shadow: .25px .25px .5px #FFFAF0;
     color: #e4a31e;
 }
+
 
 .rate{
     color: #DEE2B1;
@@ -31,11 +34,11 @@ div{
     /* border: double cornflowerblue; */
 }
 
-.wrapper{
+.wrapper1{
     display: flex;
 }
 
-.wrapper div{
+.wrapper1 div{
 
     flex: 1;
 }
@@ -54,6 +57,11 @@ div{
     position: relative;
     top: 110px;
     right: 350px;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 45.25% 50%;
 }
 
 .box3{
@@ -93,6 +101,17 @@ form{
     background-color: #e4a31e;
     box-shadow: .05px .05px 1px 1px #FFFAF0;
 }
+
+#radio-button{
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0px;
+}
+
+#conversion{
+    margin-left: 6px;
+}
+
 input{
     padding: 3.5px;
 }
